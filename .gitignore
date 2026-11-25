@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated charts
+student_scores.png
+
+# Environment variables and secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db

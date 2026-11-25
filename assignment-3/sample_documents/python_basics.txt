@@ -1,0 +1,5 @@
+Python is a general-purpose programming language. A variable stores a reference to a value.
+Lists are ordered and mutable collections. Dictionaries store key-value pairs.
+A function is defined with the def keyword and can accept parameters and return a value.
+SQLite is a lightweight relational database that stores data in a local database file.
+A parameterized SQL query separates SQL instructions from user-supplied values.

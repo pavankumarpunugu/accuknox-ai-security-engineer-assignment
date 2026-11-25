@@ -1,0 +1,27 @@
+GITHUB UPLOAD INSTRUCTIONS
+
+1. Open https://github.com/new and sign in.
+2. Repository name: accuknox-ai-security-engineer-assignment
+3. Choose Public or Private; initialize with README unchecked (ZIP already contains one).
+4. Create repository.
+5. On the empty repository page, choose "uploading an existing file".
+6. Extract this ZIP on your computer first, select all files and folders inside the extracted
+   accuknox_ai_security_assignment folder, and drag them into GitHub's upload area.
+   (This upload step uses the browser; it does not require Python or an editor.)
+7. Commit changes.
+8. Share the repository URL so the final submission can be reviewed.
+
+To execute code in the browser, use Code > Codespaces > Create codespace.
+
+RUNNING THE STUDENT SCORE API IN CODESPACES
+
+Open a Codespaces terminal and run:
+  python -m pip install -r requirements.txt
+  cd assignment-1
+  uvicorn student_score_api:app --host 0.0.0.0 --port 8000
+
+Open a second terminal, return to the repository root, and run:
+  cd ..
+  python assignment-1/student_score_analysis.py
+
+Note: the score API must stay running while the analysis script requests its data.
